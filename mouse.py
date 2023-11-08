@@ -3,6 +3,7 @@ import cv2
 import mediapipe as mp
 import numpy as np
 import pyautogui
+import time
 
 model_dict = pickle.load(open('./model.p', 'rb'))
 model = model_dict['model']
@@ -75,19 +76,23 @@ while True:
 
         if predicted_character == 'Open':
             pyautogui.doubleClick()  # Double click
+            time.sleep(0.19) 
         elif predicted_character == 'Option':
             pyautogui.rightClick()  # Right click
+            time.sleep(0.19) 
         elif predicted_character == 'Back':
     # Move the cursor to the center of the screen
              pyautogui.press('space')
+             time.sleep(0.19) 
              
   # Move 100 pixels to the left
         elif predicted_character == 'Free':
             # Move the cursor to the position of the hand
             #pyautogui.moveTo(x1, y1)
+            time.sleep(0.19) 
             screen_width = pyautogui.size().width
             pyautogui.moveTo(screen_width - x1, y1)
-            pyautogui.moveTo(screen_width - x1, y1, duration=0.01)
+            pyautogui.moveTo(screen_width - x1, y1, duration=0.005)
 
 
 
