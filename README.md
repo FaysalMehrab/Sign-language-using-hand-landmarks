@@ -55,10 +55,11 @@ streamlit run streamlit_only_gusture.py
 ---
 
 ## Results:
+![Screenshot (56)](https://github.com/user-attachments/assets/98c5c7c4-a0cb-425d-ba95-731418bccaa3)
 
-![Screenshot (56)](https://github.com/user-attachments/assets/2e7d410f-1c0a-4102-aa85-c3c65db177ba)
+![Screenshot (57)](https://github.com/user-attachments/assets/90d85a3f-8f6a-4092-9aa0-fc30d0ab57f0)
 
-![Screenshot (57)](https://github.com/user-attachments/assets/f320469c-a47c-46e0-8219-4c513268f584)
+
 
 ## Notes
 
